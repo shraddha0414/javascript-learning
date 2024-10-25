@@ -1,0 +1,16 @@
+function stringBasics(){
+    var company="Google"
+    console.log(`my dream company is :${company}`);
+    console.log("=====================================================");
+    
+    var hobbyOne="Traveling";
+    var hobbyTwo="Net-suffering";
+    var hobbyThree="Reading";
+    console.log(`My hobbies are: ${hobbyOne} , ${hobbyTwo} , ${hobbyThree}`);
+    console.log("=====================================================");
+    var result= hobbyOne.length + hobbyTwo.length + hobbyThree.length;
+    console.log(`Total no of charecters are ${result}`);
+    console.log("=====================================================");
+
+}
+stringBasics()
