@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage Assigement</title>
+</head>
+<body>
+    Local Storage Assigement
+</body>
+<script>
+   
+localStorage.setItem("name", "Shraddha Somnath Chandane"); 
+localStorage.setItem("city", "Barshi"); 
+localStorage.setItem("pinCode", "413411");
+localStorage.setItem("district", "Solapur"); 
+
+
+localStorage.removeItem("city");
+
+console.log("Name:", localStorage.getItem("name")); 
+console.log("City:", localStorage.getItem("city")); 
+console.log("Pin Code:", localStorage.getItem("pinCode"));
+console.log("District:", localStorage.getItem("district"));
+
+</script>
+</html>

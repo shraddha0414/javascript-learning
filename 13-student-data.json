@@ -1,0 +1,13 @@
+{
+    "firstName": "Elon",
+    "age": 45,
+    "city": "LA",
+    "isMarried": true,
+    "skills": ["HTML", "CSS", "JS", "ML AI", "DS"],
+    "marks" : {
+        "PHY": 90,
+        "ENG": 60,
+        "MATH": 99
+    },
+    "weight": null
+}
