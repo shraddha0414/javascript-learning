@@ -1,7 +1,7 @@
 var city ="Barshi";
 console.log("name of the City :" , city);
 
-var bfname ="Manish";
+var bfname ="Me myself";
 console.log("Best Friend name :", bfname)
 
 var country ="India";

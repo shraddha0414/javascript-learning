@@ -24,7 +24,7 @@ console.log("===== 1. DOT Notation =========");
 
 const fullName = person.fullName;
 
-console.log('Person Full name is: ${fullName}');
+console.log(`Person Full name is: ${fullName}`);
 
  
 
@@ -32,7 +32,7 @@ console.log("===== 2. Square Bracket [] Notation =========");
 
 const age = person["age"];
 
-console.log('Person age is: ${age}');
+console.log(`Person age is: ${age}`);
 
 console.log("---- Adding property into the object ---- ");
 
@@ -78,7 +78,7 @@ let student = {
 
         console.log(`======= Student ${this.fullName} Details is: ======= `);
 
-        console.log('Email: ${this.email}, Qualification: ${this.qualification}');
+        console.log(`Email: ${this.email}, Qualification: ${this.qualification}`);
 
         console.log(` Married Status: ${this.isMarried}, AGE: ${'this.age'}`);
 

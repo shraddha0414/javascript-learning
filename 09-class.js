@@ -24,7 +24,7 @@ class Student{
 
         console.log(`==== Students ${this.fullName} Details ====== `);
 
-        console.log('City: ${this.city}, AGE: ${this.age}, Is Married: ${this.isMarried}');  
+        console.log(`City: ${this.city}, AGE: ${this.age}, Is Married: ${this.isMarried}`);
 
     }
 

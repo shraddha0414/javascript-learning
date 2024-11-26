@@ -36,7 +36,7 @@ for (const key in studentJenny) {
 
         const element = studentJenny[key];
 
-        console.log(' ${key}, =>   ${element}');
+        console.log(` ${key}, =>   ${element}`);
 
     }
 

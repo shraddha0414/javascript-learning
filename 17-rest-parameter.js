@@ -1,4 +1,4 @@
-function multiply{
+function multiply (){
     console.log(n1, n2);
     
 }
